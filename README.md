@@ -28,6 +28,11 @@ It requires the following OpenMMLab packages:
 - MMCV >= 1.3.8
 
 ## Usage
+### Semi-Supervised Object Detection on COCO 10% labeled data
+Extract 10% labeld data from each categories in COCO `instance_train2017.json`.
+```python 
+python ./coco_10.py
+```
 ### Data preparation
 
 Prepare data following [MMDetection](https://github.com/open-mmlab/mmdetection) and [MMSegmentation](https://github.com/open-mmlab/mmsegmentation). The data structure looks like below:
